@@ -1,5 +1,5 @@
 ---
-title: Hexo Blog Start
+title: Hexでブログをはじめてみた前編
 date: 2016-11-19 21:54:03
 tags:
 ---
