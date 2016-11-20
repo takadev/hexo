@@ -1,7 +1,7 @@
 ---
 title: Hexoでブログをはじめてみた中編
 date: 2016-11-20 00:00:00
-tags:
+tags:Hexo
 ---
 
 [Hexoでブログをはじめてみた-前編](http://devlog.site/2016/11/19/Hexo-Blog-Start/)の続きです。
@@ -26,7 +26,7 @@ deploy:
 設定ファイルの修正が終わったらGithubデプロイ用のプラグインをインストールします。
 
 ```
-npm install hexo-deployer-git --save 
+npm install hexo-deployer-git --save
 ```
 
 ## Github Pagesに公開
