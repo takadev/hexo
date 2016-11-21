@@ -14,8 +14,10 @@ timezone: Asia/Tokyo
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://devlog.site
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :category/:title/
 permalink_defaults:
+  category: uncategorized
+  id: none
 
 # Directory
 source_dir: source
@@ -46,7 +48,9 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  Hexo: hexo
 tag_map:
+  Hexo: hexo
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
