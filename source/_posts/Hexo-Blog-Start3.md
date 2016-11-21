@@ -1,10 +1,10 @@
 ---
 title: Hexoでブログをはじめてみた後編
 date: 2016-11-21 00:00:00
-tags:Hexo
+tags: Hexo
 ---
 
-[Hexoでブログをはじめてみた-中編](http://devlog.site/2016/11/19/Hexo-Blog-Start2/)の続きです。
+[Hexoでブログをはじめてみた-中編](http://devlog.site/2016/11/20/Hexo-Blog-Start-2/)の続きです。
 
 Github Pagesにブログを公開できたら過ぎに記事をポストしてみます。
 

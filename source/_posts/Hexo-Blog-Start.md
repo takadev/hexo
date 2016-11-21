@@ -1,7 +1,7 @@
 ---
 title: Hexでブログをはじめてみた前編
 date: 2016-11-19 21:54:03
-tags:Hexo
+tags: Hexo
 ---
 
 自身の勉強と草を生やす為にHexoとGithub Pagesを使ってブログを書くことにしました。

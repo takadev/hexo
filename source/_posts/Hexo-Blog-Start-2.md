@@ -1,7 +1,7 @@
 ---
 title: Hexoでブログをはじめてみた中編
 date: 2016-11-20 00:00:00
-tags:Hexo
+tags: Hexo
 ---
 
 [Hexoでブログをはじめてみた-前編](http://devlog.site/2016/11/19/Hexo-Blog-Start/)の続きです。
