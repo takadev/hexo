@@ -14,6 +14,7 @@ category: Hexo
 
 Github Pagesへの公開には設定ファイルの修正が必要です。
 _config.ymlファイルを修正します。
+<!-- more -->
 
 ```
 vim _config.yml

@@ -15,6 +15,7 @@ category: tensorflow
 私の環境はmacでOS X El Capitanです。まだmacOS Sierraにはあげてません...
 TensorFlowのバージョンは0.10を使用します。
 HomeBrewを使用しますので予めインストールしておいて下さい。
+<!-- more -->
 
 ## pythonのインストール
 TensorFlowではpythonを使用するので事前にインストールしておきます。
