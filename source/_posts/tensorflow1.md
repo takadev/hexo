@@ -169,4 +169,3 @@ Hello, TensorFlow!
 
 これで無事にTensorFlowが動作していることが確認できました。
 今後はこのTensorFlowで遊んでみたいと思います。
-
