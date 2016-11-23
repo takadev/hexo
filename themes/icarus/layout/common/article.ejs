@@ -41,7 +41,18 @@
         <%- partial('post/nav') %>
     <% } %>
 </article>
-
 <% if (!index) { %>
+  <section id="related">
+      <div class="related-inner">
+          <header class="related-header">
+              <div class="related-header-line">
+                  <h2>関連記事</h2>
+              </div>
+          </header>
+          <%-
+            popular_posts({ maxCount: 5 , ulClass: 'related-posts' , PPMixingRate: 0.0, isDate: true , isImage: true })
+          %>
+      </div>
+  </section>
     <%- partial('comment/index') %>
 <% } %>
