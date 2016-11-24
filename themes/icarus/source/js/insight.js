@@ -32,8 +32,7 @@
             case 'POSTS':
             case 'PAGES':
                 $searchItems = array.map(function (item) {
-                    // Use config.root instead of permalink to fix url issue
-                    return searchItem('file', item.title, null, item.text.slice(0, 150), CONFIG.ROOT_URL + item.path);
+                    return searchItem('file', item.title, null, item.content.slice(0, 150), CONFIG.ROOT_URL + item.path);
                 });
                 break;
             case 'CATEGORIES':

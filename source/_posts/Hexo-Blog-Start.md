@@ -1,5 +1,5 @@
 ---
-title: Hexでブログをはじめてみた前編
+title: Hexoでブログをはじめてみた前編
 date: 2016-11-19 21:54:03
 tags: Hexo
 category: Hexo
