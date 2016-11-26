@@ -13,7 +13,7 @@ category: Hexo
 ### 設定ファイルの修正とプラグインのインストール
 
 Github Pagesへの公開には設定ファイルの修正が必要です。
-_config.ymlファイルを修正します。
+\_config.ymlファイルを修正します。
 <!-- more -->
 
 ```
@@ -55,7 +55,7 @@ clone後、icarus内の設定ファイルをリネイムします。
 
 ```
 cd theme/icarus
-mv _config.yml.example _config.yml
+mv \_config.yml.example _config.yml
 ```
 
 次にHexoの設定ファイルを編集します。

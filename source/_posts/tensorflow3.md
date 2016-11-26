@@ -40,7 +40,7 @@ TensorFlowでは各opごとにCPUコアやGPUコアのリソースをどの程�
 
 簡単なコードを見てみましょう。
 
-```
+```python
 import tensorflow as tf
 
 # 定数の定義
@@ -78,7 +78,7 @@ TensorBoardを使用することでグラフを可視化でき、ブラウザで
 
 TensorBoardでグラフ出力するには以下のコードを追加します。
 
-```
+```python
 tf.train.SummaryWriter('./', sess.graph)
 ```
 
@@ -86,7 +86,7 @@ tf.train.SummaryWriter('./', sess.graph)
 TensorBoard用のファイルが生成されたら、次のコマンドを実行します。
 
 
-```
+```python
 tensorboard --logdir=[TensorBoard用のファイルがあるディレクトリ]
 ```
 

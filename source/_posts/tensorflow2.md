@@ -19,7 +19,7 @@ TensorFlow全くの初心者ですので、右も左もわかってません。�
 <!-- more -->
 
 
-```
+```python
 import tensorflow as tf
 
 # 定数宣言
@@ -66,7 +66,7 @@ python math.py
 
 1行目
 
-```
+```python
 import tensorflow as tf
 ```
 
@@ -74,7 +74,7 @@ import tensorflow as tf
 
 4行目
 
-```
+```python
 const1 = tf.constant(2)
 ```
 
@@ -82,7 +82,7 @@ const1という定数を宣言し、その定数に2を設定しています。
 
 8行目
 
-```
+```python
 add_op = tf.add(const1, const2)
 ```
 
@@ -90,7 +90,7 @@ const1とconst2を足し算するオペーレションadd_opを設定
 
 11行目
 
-```
+```python
 sess = tf.Session()
 ```
 
@@ -98,7 +98,7 @@ sess = tf.Session()
 
 13行目
 
-```
+```python
 result = sess.run(add_op)
 ```
 
@@ -117,7 +117,7 @@ tf.divはリファレンスを見てみると
 
 小数点以下を切り捨てたくない場合はtf.truedivを使用してます。
 
-```
+```python
 div_op = tf.truediv(const1, const2)
 result = sess.run(div_op)
 print(result)
