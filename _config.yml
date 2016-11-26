@@ -49,6 +49,7 @@ highlight:
 default_category: uncategorized
 category_map:
   Hexo: hexo
+  機械学習: machine-learning
 tag_map:
   Hexo: hexo
 
