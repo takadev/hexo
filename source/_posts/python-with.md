@@ -3,7 +3,7 @@ title: Pythonのwith構文について調べてみた
 date: 2016-11-27 00:00:00
 tags:
 - "python"
-- "プログラムミング"
+- "プログラミング"
 category: python
 ---
 ## with構文について
