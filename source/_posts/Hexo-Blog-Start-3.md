@@ -1,13 +1,17 @@
 ---
 title: Hexoでブログをはじめてみた後編
 date: 2016-11-21 00:00:00
-tags: Hexo
-category: Hexo
+tags:
+- "ブログ"
+- "nvm"
+- "git"
+category: hexo
 ---
 
 [Hexoでブログをはじめてみた-中編](http://devlog.site/2016/hexo/Hexo-Blog-Start-2/)の続きです。
 
 Github Pagesにブログを公開できたら過ぎに記事をポストしてみます。
+<!-- more -->
 
 ### 記事の作成
 
@@ -17,7 +21,7 @@ Github Pagesにブログを公開できたら過ぎに記事をポストして�
 hexo new post [記事のタイトル]
 ```
 
-<!-- more -->
+
 するとsorce/\_post/配下に[記事のタイトル].mdファイルが作成されます。
 次にこの.mdファイルをマークダウンで内容を記述します。
 内容が書き終わったら、ビルトインサーバを立ち上げて、プレビューしてみましょう

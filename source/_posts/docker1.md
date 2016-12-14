@@ -7,6 +7,7 @@ category: Docker
 ## Dockerを使うときのメモ
 先人からDockerの環境を引き継ぐこととなりDockerほぼ使ったことなかったので
 色々調べたことをメモしておきます。
+<!-- More -->
 
 ## Dockerイメージの検索
 DockerイメージをDocker Hub上から検索できます。
@@ -14,8 +15,6 @@ DockerイメージをDocker Hub上から検索できます。
 ```
 docker search [イメージ名]
 ```
-
-<!-- More -->
 
 ## Dcokerイメージをダウンロード
 Docker Hub上からイメージをダウンロードします

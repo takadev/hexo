@@ -1,20 +1,23 @@
 ---
 title: Hexoでブログをはじめてみた中編
 date: 2016-11-20 00:00:00
-tags: Hexo
-category: Hexo
+tags:
+- "ブログ"
+- "nvm"
+- "git"
+category: hexo
 ---
 
 [Hexoでブログをはじめてみた-前編](http://devlog.site/2016/hexo/Hexo-Blog-Start/)の続きです。
 
 ビルトインサーバでブログを立ち上げることができたと思います。
 次にGithub Pagesへブログを公開してみましょう。
+<!-- more -->
 
 ### 設定ファイルの修正とプラグインのインストール
 
 Github Pagesへの公開には設定ファイルの修正が必要です。
 \_config.ymlファイルを修正します。
-<!-- more -->
 
 ```
 vim _config.yml
